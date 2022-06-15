@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
 
     <title>Basland</title>
-
+	<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
     <link rel="stylesheet" href="style.css">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
   </head>
   <body>
+	<div class="btn">
+  <img src="1f51d.png" class="icone">
+    </div>
     <header>
       <nav>
         <ul>
@@ -18,7 +21,7 @@
           <li><a href="#contact">Nous contacter</a></li>
           <li><a href="compte.html">Compte</a></li>
 		  <li><a href="download.html">Téléchargement</a></li>
-          <li><a href="forum.html">Forum</a></li>
+          <li><a href="forum.html">Apprendre</a></li>
         </ul>
       </nav>
       <div id="imagePrincipale">
@@ -36,15 +39,15 @@
       <div id="prestations">
         <div class="imagesPrestations">
           <h4>Les bases</h4>
-          <a href="#"><img src="html.png" alt="html"></a>
+          <a href="forum.html"><img src="html.png" alt="html"></a>
         </div>
         <div class="imagesPrestations">
           <h4>Les styles</h4>
-          <a href="#"><img src="css.png" alt="css"></a>
+          <a href="forum.html"><img src="css.png" alt="css"></a>
         </div>
         <div class="imagesPrestations">
           <h4>L'interraction</h4>
-          <a href="#"><img src="js.png" alt="js"></a>
+          <a href="forum.html"><img src="js.png" alt="js"></a>
         </div>
       </div>
 
@@ -52,10 +55,10 @@
     <section id="tourisme">
       <h2>Et tant à découvrir...</h2>
       <ul>
-        <li id="ocean"><p>Forum de discussion</p></li>
+        <a href="forum.html"><li id="ocean"><p>Initiation informatique</p></li></a>
         <a href="#contact"><li id="chateau"><p>Equipe informatique</p></li></a>
-        <li id="phare"><p>Téléchargement utile</p></li>
-        <li id="vignoble"><p>Inscrivez vous !</p></li>
+        <a href="download.html"><li id="phare"><p>Téléchargement utile</p></li></a>
+        <a href="compte.html"><li id="vignoble"><p>Inscrivez vous !</p></li></a>
       </ul>
     </section>
     <footer>
@@ -80,6 +83,7 @@
       </div>
 
     </footer>
+	<script src="app.js"></script>
   </body>
 
 </html>
