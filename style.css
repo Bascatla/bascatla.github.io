@@ -219,3 +219,22 @@ button:hover {
   transform: scale(1.5);
   transition: 0.1s;
 }
+.btn {
+    height: 75px;
+    width: 75px;
+    background: #fcf2bd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+}
+.icone {
+    width: 50px;
+}
