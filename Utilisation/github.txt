@@ -1,4 +1,0 @@
-cd C:/Users/Elève/Desktop
-git add .
-git commit -m "MESSAGE"
-git push -u (ou-f) origin main (nom de la branche)
